@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6c63ff, #a855f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.logo {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #29234d;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.password-container {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    min-width: 0;
+    padding: 14px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.toggle-password {
+    padding: 0 12px;
+    border: none;
+    background: white;
+    color: #6c63ff;
+    cursor: pointer;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #6c63ff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.login-button:hover {
+    background: #574de0;
+}
+
+.mensagem {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.mensagem.erro {
+    color: #d93025;
+}
+
+.mensagem.sucesso {
+    color: #188038;
+}
+
+.footer-text {
+    color: #888;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 25px;
+}
